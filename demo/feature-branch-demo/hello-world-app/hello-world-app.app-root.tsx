@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 /**
  * use the my-org.my-scope/ui/hello-world component.
