@@ -1,3 +1,4 @@
+import React from 'react';
 import { HelloWorldApp } from './hello-world-app.app-root';
 
 export const HelloWorldAppBasic = () => {
