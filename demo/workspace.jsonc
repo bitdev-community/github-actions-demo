@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "org.scope-name"
+    "defaultScope": "github-actions.feature-branch-demo"
   },
   /**
    * main configuration for component dependency resolution.
