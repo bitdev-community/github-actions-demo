@@ -3,18 +3,19 @@
 /**
  * The Bitmap file is an auto generated file used by Bit to track all your Bit components. It maps the component to a folder in your file system.
  * This file should be committed to VCS(version control).
- * Components are listed using their component ID (https://bit.dev/docs/components/component-id).
+ * Components are listed using their component ID (https://bit.dev/reference/components/component-id).
  * If you want to delete components you can use the "bit remove <component-id>" command.
- * See the docs (https://bit.dev/docs/components/removing-components) for more information, or use "bit remove --help".
+ * See the docs (https://bit.dev/reference/components/removing-components) for more information, or use "bit remove --help".
  */
 
 {
     "envs/my-react-env": {
+        "name": "envs/my-react-env",
         "scope": "",
         "version": "",
-        "defaultScope": "org.scope-name",
+        "defaultScope": "github-actions.feature-branch-demo",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/envs/my-react-env",
+        "rootDir": "feature-branch-demo/envs/my-react-env",
         "config": {
             "teambit.dependencies/dependency-resolver": {
                 "policy": {
@@ -41,11 +42,12 @@
         }
     },
     "get-hello-world": {
+        "name": "get-hello-world",
         "scope": "",
         "version": "",
-        "defaultScope": "org.scope-name",
+        "defaultScope": "github-actions.feature-branch-demo",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/get-hello-world",
+        "rootDir": "feature-branch-demo/get-hello-world",
         "config": {
             "teambit.node/node@0.0.38": {},
             "teambit.envs/envs": {
@@ -67,13 +69,14 @@
         }
     },
     "hello-world-app": {
+        "name": "hello-world-app",
         "scope": "",
         "version": "",
-        "defaultScope": "org.scope-name",
+        "defaultScope": "github-actions.feature-branch-demo",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/hello-world-app",
+        "rootDir": "feature-branch-demo/hello-world-app",
         "config": {
-            "learnbit.hello-world/envs/my-react-env@0.0.3": {},
+            "learnbit.hello-world/envs/my-react-env@0.0.4": {},
             "teambit.envs/envs": {
                 "env": "learnbit.hello-world/envs/my-react-env"
             },
@@ -94,13 +97,14 @@
         }
     },
     "ui/hello-world": {
+        "name": "ui/hello-world",
         "scope": "",
         "version": "",
-        "defaultScope": "org.scope-name",
+        "defaultScope": "github-actions.feature-branch-demo",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/ui/hello-world",
+        "rootDir": "feature-branch-demo/ui/hello-world",
         "config": {
-            "learnbit.hello-world/envs/my-react-env@0.0.3": {},
+            "learnbit.hello-world/envs/my-react-env@0.0.4": {},
             "teambit.envs/envs": {
                 "env": "learnbit.hello-world/envs/my-react-env"
             },
@@ -119,5 +123,5 @@
             }
         }
     },
-    "$schema-version": "15.0.0"
+    "$schema-version": "17.0.0"
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { getHelloWorld } from '@org/scope-name.get-hello-world';
+import { getHelloWorld } from '@github-actions/feature-branch-demo.get-hello-world';
 
 /**
  *  A function component that returns a div with the text "Hello World"

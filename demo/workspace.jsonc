@@ -87,5 +87,5 @@
       // "teambit.react/react": { }
     }
   },
-  "org.scope-name/hello-world-app": {}
+  "github-actions.feature-branch-demo/hello-world-app": {}
 }
