@@ -13,7 +13,7 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "feature-branch-demo/hello-world-app",
+        "rootDir": "components/hello-world-app",
         "config": {
             "github-actions.feature-branch-demo/envs/my-react-env": {},
             "teambit.envs/envs": {
@@ -25,19 +25,24 @@
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "feature-branch-demo/envs/my-react-env"
+        "rootDir": "components/envs/my-react-env",
+        "config": {
+            "teambit.envs/envs": {
+                "env": "teambit.envs/env"
+            }
+        }
     },
     "get-hello-world": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "feature-branch-demo/get-hello-world"
+        "rootDir": "components/get-hello-world"
     },
     "ui/hello-world": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "feature-branch-demo/ui/hello-world",
+        "rootDir": "components/ui/hello-world",
         "config": {
             "github-actions.feature-branch-demo/envs/my-react-env": {},
             "teambit.envs/envs": {
