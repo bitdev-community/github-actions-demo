@@ -12,7 +12,7 @@
     "apps/hello-world-app": {
         "name": "apps/hello-world-app",
         "scope": "github-actions.feature-branch-demo",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/hello-world-app"
     },
@@ -33,7 +33,7 @@
     "ui/hello-world": {
         "name": "ui/hello-world",
         "scope": "github-actions.feature-branch-demo",
-        "version": "0.0.1",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "components/ui/hello-world"
     },
