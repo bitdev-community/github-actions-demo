@@ -109,7 +109,7 @@ on:
     types:
       - closed
 jobs:
-  build:
+  cleanup:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
