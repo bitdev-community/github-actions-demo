@@ -4,7 +4,7 @@ This demo showcase how you can implement Git feature branching workflow with Bit
 # Step 1: Building and Testing Feature Branches
 When you start implementing a new feature, you may create a new branch in Git. And, once the feature is complete, you can commit the modified components and push the changes to GitHub feature branch.
 
-This GitHub Actions task [`1-verify`](/.github/workflows/1-verify.yml) is there to check whether all the components are in order.
+This GitHub Actions task [1-verify](/.github/workflows/1-verify.yml) is there to check whether all the components are in order.
 
 ```
 name: Demo Bit Verify
@@ -32,7 +32,7 @@ jobs:
 **Note:** This tasks runs after pushing to a feature branch except `main`.
 
 # Step 2: Building and Testing Pull Request
-Once your feature branch is ready to send a Pull Request, you can create one using GitHub. After creating it, the GitHub Actions task [`2-pull-request`](/.github/workflows/2-pull-request.yml) get trigged. It does several important things.
+Once your feature branch is ready to send a Pull Request, you can create one using GitHub. After creating it, the GitHub Actions task [2-pull-request](/.github/workflows/2-pull-request.yml) get trigged. It does several important things.
 
 ```
 name: Demo Bit Pull Request
@@ -68,7 +68,7 @@ jobs:
 
 
 # Step 3: Tag and Export Components and Commit updated Bitmap file
-Once the Pull Request is merged to the `main` branch in Git, the GitHub Actions task `[3-tag-export-commit-bitmap](/.github/workflows/3-tag-export-commit-bitmap.yml)` gets trigged, which tags and export the modified component into Bit cloud. After that, it commits back the updated `.bitmap` file that contains the newly tagged versions of the components.
+Once the Pull Request is merged to the `main` branch in Git, the GitHub Actions task [3-tag-export-commit-bitmap](/.github/workflows/3-tag-export-commit-bitmap.yml) gets trigged, which tags and export the modified component into Bit cloud. After that, it commits back the updated `.bitmap` file that contains the newly tagged versions of the components.
 
 ```
 name: Demo Bit Tag and Export and Commit Bitmap
@@ -100,7 +100,7 @@ jobs:
 ```
 
 # Step 4: Cleanup Test lanes
-After merging the Pull Request, you may find several danggling lanes in Bit cloud. If you want to clean them up, you can do it by running the GitHub Actions task `[lane-cleanup](/.github/workflows/4-lane-cleanup.yml)` which get trigged upon merging (closing) the Pull Request.
+After merging the Pull Request, you may find several danggling lanes in Bit cloud. If you want to clean them up, you can do it by running the GitHub Actions task [lane-cleanup](/.github/workflows/4-lane-cleanup.yml) which get trigged upon merging (closing) the Pull Request.
 
 ```
 name: Demo Bit Lane Cleanup
