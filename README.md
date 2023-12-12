@@ -126,3 +126,20 @@ jobs:
       - name: Bit Lane Cleanup
         uses: bit-tasks/lane-cleanup@v1
 ```
+
+# More Resources
+
+The Bit Tasks organization contains different scripts, tools and CI/CD solutions to use Bit with Git.
+
+### GitHub <img src="https://github.githubassets.com/favicons/favicon.png" width="24" height="24" alt="GitHub Icon">
+
+| GitHub Marketplace Tasks | Docker Shell Scripts | Examples | Dependabot |
+|---------------------------|-----------------------------|---------------------------|------------|
+| [Initialize Bit](https://github.com/bit-tasks/init) | [github.bit.init](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.init) | [Examples](https://github.com/bit-tasks/github-action-examples) | [Setup Guide](https://github.com/bit-tasks/dependabot) |
+| [Verify Components](https://github.com/bit-tasks/verify) | [github.bit.verify](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.verify) | | |
+| [Tag and Export](https://github.com/bit-tasks/tag-export) | [github.bit.tag-export](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.tag-export) | | |
+| [Pull Request Build](https://github.com/bit-tasks/pull-request) | [github.bit.pull-request](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.pull-request) | | |
+| [Lane Cleanup](https://github.com/bit-tasks/lane-cleanup) | [github.bit.lane-cleanup](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.lane-cleanup) | | |
+| [Commit Bitmap](https://github.com/bit-tasks/commit-bitmap) | [github.bit.commit-bitmap](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.commit-bitmap) | | |
+| [Dependency Update](https://github.com/bit-tasks/dependency-update) | [github.bit.dependency-update](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.dependency-update) | | |
+| [Branch Lane](https://github.com/bit-tasks/branch-lane) | [github.bit.branch-lane](https://github.com/bit-tasks/bit-docker-image/blob/main/scripts/github.bit.branch-lane) | | |
