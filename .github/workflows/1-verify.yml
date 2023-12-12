@@ -1,6 +1,9 @@
 name: Demo Bit Verify
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - '*' # all feature branches
+      - '!main' # excludes main
 jobs:
   verify:
     runs-on: ubuntu-latest
