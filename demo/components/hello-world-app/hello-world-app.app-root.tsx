@@ -14,7 +14,7 @@ export const HelloWorldApp = () => {
   return (
     <>
       <HelloWorld />
-      <p style={{ backgroundColor: 'Tomato' }}>
+      <p style={{ backgroundColor: 'Tomato', color: 'white' }}>
         Welcome to the feature branch demo!
       </p>
     </>
