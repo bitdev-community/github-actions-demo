@@ -6,5 +6,5 @@ import { getHelloWorld } from '@github-actions/feature-branch-demo.get-hello-wor
  */
 
 export function HelloWorld() {
-  return <h1 style={{ backgroundColor: 'DodgerBlue' }}>{getHelloWorld()}</h1>;
+  return <h1 style={{ backgroundColor: 'DodgerBlue', color: 'white' }}>{getHelloWorld()}</h1>;
 }
