@@ -10,7 +10,16 @@ import { HelloWorld } from '@github-actions/feature-branch-demo.ui.hello-world';
 /**
  * A simple app that renders the HelloWorld component.
  */
-export const HelloWorldApp = () => <HelloWorld />;
+export const HelloWorldApp = () => {
+  return (
+    <>
+      <HelloWorld />
+      <p style={{ backgroundColor: 'Tomato' }}>
+        Welcome to the feature branch demo!
+      </p>
+    </>
+  );
+};
 
 /*
  * A simple app that renders the HelloWorldApp component.

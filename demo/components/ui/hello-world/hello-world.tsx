@@ -2,9 +2,9 @@ import React from 'react';
 import { getHelloWorld } from '@github-actions/feature-branch-demo.get-hello-world';
 
 /**
- *  A function component that returns a div with the text "Hello World".
+ *  A function component that returns a div with the text "Hello World"
  */
 
 export function HelloWorld() {
-  return <div>{getHelloWorld()}</div>;
+  return <h1 style={{ backgroundColor: 'DodgerBlue' }}>{getHelloWorld()}</h1>;
 }
