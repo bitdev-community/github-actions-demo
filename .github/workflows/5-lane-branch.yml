@@ -1,4 +1,4 @@
-name: Test Bit Lane Branch
+name: Demo Bit Lane Branch
 on:
   workflow_dispatch:
     inputs:
