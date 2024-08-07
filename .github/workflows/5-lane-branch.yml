@@ -1,0 +1,30 @@
+name: Test Bit Lane Branch
+on:
+  workflow_dispatch:
+    inputs:
+      lane_name:
+        description: 'The name of the lane to sync from'
+        required: true
+        default: 'main'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GIT_USER_NAME: ${{ secrets.GIT_USER_NAME }}
+      GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
+      BIT_CONFIG_ACCESS_TOKEN: ${{ secrets.BIT_CONFIG_ACCESS_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Initialize Bit
+        uses: bit-tasks/init@v2
+        with:
+            ws-dir: 'test-data'
+      - name: Bit Lane Branch
+        uses: bit-tasks/lane-branch@main
+        with:
+            lane-name: ${{ github.event.inputs.lane_name }}
+            skip-push: 'true'
