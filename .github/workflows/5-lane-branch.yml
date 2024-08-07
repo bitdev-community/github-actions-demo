@@ -22,7 +22,7 @@ jobs:
       - name: Initialize Bit
         uses: bit-tasks/init@v2
         with:
-            ws-dir: 'test-data'
+            ws-dir: 'demo'
       - name: Bit Lane Branch
         uses: bit-tasks/lane-branch@main
         with:
