@@ -23,8 +23,8 @@ jobs:
         uses: bit-tasks/init@v2
         with:
             ws-dir: 'demo'
+            skip-install: 'true'
       - name: Bit Lane Branch
         uses: bit-tasks/lane-branch@main
         with:
             lane-name: ${{ github.event.inputs.lane_name }}
-            skip-push: 'true'
