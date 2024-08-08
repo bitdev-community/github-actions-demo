@@ -33,7 +33,7 @@
     "ui/hello-world": {
         "name": "ui/hello-world",
         "scope": "github-actions.feature-branch-demo",
-        "version": "0.2.0",
+        "version": "1badbe8015f8dba26041b768ccaae5927cbe0827",
         "mainFile": "index.ts",
         "rootDir": "components/ui/hello-world"
     },
