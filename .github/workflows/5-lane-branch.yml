@@ -25,7 +25,7 @@ jobs:
             ws-dir: 'demo'
             skip-install: 'true'
       - name: Bit import
-        run:  bit import
+        run:  cd demo && bit import
       - name: Bit Lane Branch
         uses: bit-tasks/lane-branch@main
         with:
