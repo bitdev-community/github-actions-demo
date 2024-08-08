@@ -5,7 +5,7 @@ on:
       lane_name:
         description: 'The name of the lane to sync from'
         required: true
-        default: 'main'
+        default: ''
 permissions:
   contents: write
 jobs:
