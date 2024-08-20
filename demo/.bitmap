@@ -30,6 +30,15 @@
         "mainFile": "index.ts",
         "rootDir": "components/get-hello-world"
     },
+    "hello-world": {
+        "name": "hello-world",
+        "scope": "bit-tasks.gitlab-demo",
+        "version": "84b379739e4e1aa9d152b09f6a2c5ad64f14160e",
+        "mainFile": "index.ts",
+        "rootDir": "components/hello-world",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
     "ui/hello-world": {
         "name": "ui/hello-world",
         "scope": "github-actions.feature-branch-demo",
